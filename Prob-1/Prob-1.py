@@ -2,9 +2,15 @@
 #   Programming Assignment 10
 #     Prob-1.py
 
-# <YOUR NAME>
+# Matthew Bly
 
 def main():
-    # your code here
-
+    sum = 0
+    number = int(input("Enter a number (negative to quit) >> "))
+    while number >= 0:
+        sum = sum + number
+        number = int(input("Enter a number (negative to quit) >> "))
+        
+    print("the sum of the numbers are:", sum)
+    
 main()    

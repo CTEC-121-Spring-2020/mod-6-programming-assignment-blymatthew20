@@ -2,13 +2,20 @@
 #   Programming Assignment 10
 #     Prob-3.py
 
-# <YOUR NAME>
+# Matthew Bly
 
 def main():
-    # your code here
+    sum = 0
+    num = int(input('enter a positive number (negative to end):'))
 
     # do not change the while loop definition below
     while True:
-        # your code here
+        print(num)
+        if num < 0:
+              break
+        sum = sum + num
+        num = int(input('enter a positive number (negative to end):'))
+
+    print('the sum of the numbers is:', sum)
 
 main()    

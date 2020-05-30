@@ -7,7 +7,7 @@
 def main():
     sum = 0
     number = int(input("Enter a number (negative to quit) >> "))
-    while number >= 0:
+    while number <= 0:
         sum = sum + number
         number = int(input("Enter a number (negative to quit) >> "))
         

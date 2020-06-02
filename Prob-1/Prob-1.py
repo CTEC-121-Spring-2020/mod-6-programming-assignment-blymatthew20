@@ -6,10 +6,10 @@
 
 def main():
     sum = 0
-    number = int(input("Enter a number (negative to quit) >> "))
-    while number <= 0:
+    number = float(input("Enter a number (negative to quit) >> "))
+    while number >= 0:
         sum = sum + number
-        number = int(input("Enter a number (negative to quit) >> "))
+        number = float(input("Enter a number (negative to quit) >> "))
         
     print("the sum of the numbers are:", sum)
     
